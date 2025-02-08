@@ -1,6 +1,6 @@
 Fork of pondahai/rp2040-doom-ili9341 to add support for ST7735 screens. 
 ST77335 is a direct subclass of the ILI9341 display driver, but requires a 2 diffrent settings, dcs address mode is BGR and Y needs to be mirrored.
-I have only edited the values of the ILI9341 configs just to fix this, I couldn't be bothered to rename everything.
+I have only edited the values of the ILI9341 in magc.h just to fix this, I couldn't be bothered to rename everything (the values for ST7789 matched but the size of screen is different and would require many more changes to make work with the ST7735).
 I have also added a .uf2 I have tested and confirmed works. 
 
 
