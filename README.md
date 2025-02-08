@@ -1,3 +1,11 @@
+Fork of pondahai/rp2040-doom-ili9341 to add support for ST7735 screens. 
+ST77335 is a direct subclass of the ILI9341 display driver, but requires a 2 diffrent settings, dcs address mode is BGR and Y needs to be mirrored.
+I have only edited the values of the ILI9341 configs just to fix this, I couldn't be bothered to rename everything.
+I have also added a .uf2 I have tested and confirmed works. 
+
+
+------------------------------------------------------------------------------------------------------------------------------
+
 改編自 https://github.com/kilograham/rp2040-doom
 
 感謝kilograham做了絕大部分的貢獻 他把doom源碼做了很大的改寫 讓doom可以在rp2040(樹莓派pico)上運行 我只是修改成可以在LCD(ILI9341)上顯示
